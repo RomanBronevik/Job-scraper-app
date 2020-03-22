@@ -1,0 +1,27 @@
+.card {
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  width: 27.5%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.title-style {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 450px) {
+  .card {
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  }
+  .title-style {
+    font-size: 2rem;
+  }
+}
